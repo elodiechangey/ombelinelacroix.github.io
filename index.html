@@ -11,9 +11,9 @@
       <meta name="description" content="Website of Rose A. Lacroix. Developper, writer, artist.">
       <meta name="keywords" content="Rose Lacroix,Rose A Lacroix,Rose Reaper,Rosereaper,DAZ Studio,Marvelous Designer,The Aroostook Witch">
       <meta name="author" content="Rose A. Lacroix">
-      <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+      <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="./style/style.css"/>
+      <link rel="stylesheet" href="styles/style.css"/>
 
   </head>
 
@@ -23,20 +23,20 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-10">
-        <ul class="nav justify-content-center nav-fill">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+        <ul class="navbar nav justify-content-center nav-fill">
+          <li class="nav-item bg-secondary">
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item bg-secondary">
             <a class="nav-link" href="#">My projects</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">LOGO</a>
+          <li class="nav-logo">
+            <a href="index.html"><img src="https://via.placeholder.com/350x200.png?text=LOGO"></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item bg-secondary">
             <a class="nav-link" href="#">About me</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item bg-secondary">
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
@@ -45,19 +45,20 @@
   </div>
 <!-- Navbar -->
 
+<!-- Carousel -->
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-10">
           <div id="carouselHome" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="https://via.placeholder.com/800x400.png?text=First+slide" alt="First slide">
+                <img class="d-block w-100" src="https://via.placeholder.com/930x470.png?text=First+slide" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://via.placeholder.com/800x400.png?text=Second+slide" alt="Second slide">
+                <img class="d-block w-100" src="https://via.placeholder.com/930x470.png?text=Second+slide" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://via.placeholder.com/800x400.png?text=Third+slide" alt="Third slide">
+                <img class="d-block w-100" src="https://via.placeholder.com/930x470.png?text=Third+slide" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
@@ -72,13 +73,58 @@
         </div>
       </div>
     </div>
+<!-- Carousel -->
 
-    <footer class="text-center">
-      <p>&copy; 2018 Rose A. Lacroix. All rights reserved.</p>
+<!-- Welcome section -->
+  <div class="container welcome-section">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h1 class="handwritten-title">Welcome</h1>
+        <h2 class="welcome-title">to my online Portfolio</h2>
+        <p>My name is Rose, and I'm a French developper, writer and artist. </br>
+        I share my work here. You can expect to find several projects, each one of a different nature.</p>
+        <a href="#">Read more about me</a>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-3">
+        <h1 class="latest-projects">Latest </br> Projects</h1>
+        <div class="home-project-list">
+          <p>
+            <a href="#"><img src="https://via.placeholder.com/60x60.png?text=1"></a>
+            <a href="#"><img src="https://via.placeholder.com/60x60.png?text=2"></a>
+            <a href="#"><img src="https://via.placeholder.com/60x60.png?text=3"></a>
+          </p>
+          <p>
+            <a href="#"><img src="https://via.placeholder.com/60x60.png?text=4"></a>
+            <a href="#"><img src="https://via.placeholder.com/60x60.png?text=5"></a>
+            <a href="#"><img src="https://via.placeholder.com/60x60.png?text=6"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Welcome section -->
+
+<!-- Footer -->
+  <div class="container-fluid footer-fluid">
+    <footer class="footer text-center bg-secondary">
+      <div class="social-media">
+        <a href="#"><img class="facebook-icon" src="assets/facebook_icon.png"></a>
+        <a href="#"><img class="twitter-icon" src="assets/twitter_icon.png"></a>
+        <a href="#"><img class="tumblr-icon" src="assets/tumblr_icon.png"></a>
+        <a href="#"><img class="ko-fi-icon" src="assets/ko-fi_icon.png"></a>
+      </div>
+      <p>&copy; 2018 Rose A. Lacroix.</p>
     </footer>
+  </div>
+<!-- Footer -->
 
+<!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+<!-- Scripts -->
   </body>
 </html>

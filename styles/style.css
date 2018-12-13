@@ -1,0 +1,39 @@
+body {
+  background-image: url("../assets/background_body.jpg");
+  background-repeat: repeat;
+}
+
+.nav-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.welcome-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.social-media {
+  padding-bottom: 5px;
+}
+
+.facebook-icon,.twitter-icon,.tumblr-icon,.ko-fi-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.footer-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
