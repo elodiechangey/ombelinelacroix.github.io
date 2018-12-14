@@ -1,16 +1,43 @@
 body {
-  background-image: url("../assets/background_body.jpg");
+  background-image: url("../assets/images/background_body.jpg");
   background-repeat: repeat;
+}
+
+@font-face {
+    font-family: "Legrand";
+    src: url("../assets/fonts/Legrand.ttf") format("truetype");
 }
 
 .nav-item {
   padding-top: 10px;
   padding-bottom: 10px;
+  border-top: 5px solid #9a7b3b;
+  border-bottom: 5px solid #9a7b3b;
+}
+
+.navbar {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-link {
+  font-family: "Legrand";
+  color: #9a7b3b;
+  font-size: 35px;
+}
+
+.nav-link:hover {
+  color: #fcb728;
 }
 
 .nav-logo {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.logo_nav {
+  height: 200px;
+  width: 350px;
 }
 
 .welcome-section {
