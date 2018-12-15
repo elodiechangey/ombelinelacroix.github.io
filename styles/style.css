@@ -8,14 +8,43 @@ body {
     src: url("../assets/fonts/Legrand.ttf") format("truetype");
 }
 
-.nav-item {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: 5px solid #9a7b3b;
-  border-bottom: 5px solid #9a7b3b;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
-.navbar {
+.banner-main {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-whole {
+  position: relative;
+  bottom: 80px;
+}
+
+.navbar-width {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-item {
+  border-top: 5px solid #9a7b3b;
+  border-bottom: 5px solid #9a7b3b;
+  background-color: #f4e5ce;
+}
+
+.nav-first {
+  border-left: 5px solid #9a7b3b;
+}
+
+.nav-last {
+  border-right: 5px solid #9a7b3b;
+}
+
+.nav-fill {
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -24,6 +53,8 @@ body {
   font-family: "Legrand";
   color: #9a7b3b;
   font-size: 35px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .nav-link:hover {
@@ -58,9 +89,4 @@ body {
 .facebook-icon,.twitter-icon,.tumblr-icon,.ko-fi-icon {
   height: 40px;
   width: 40px;
-}
-
-.footer-fluid {
-  padding-right: 0px;
-  padding-left: 0px;
 }
