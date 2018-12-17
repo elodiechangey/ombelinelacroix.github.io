@@ -1,11 +1,23 @@
 body {
   background-image: url("../assets/images/background_body.jpg");
   background-repeat: repeat;
+  background-size: 100%;
+  font-family: "Calibri";
 }
 
 @font-face {
-    font-family: "Legrand";
-    src: url("../assets/fonts/Legrand.ttf") format("truetype");
+  font-family: "Legrand";
+  src: url("../assets/fonts/Legrand.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Golden-Plains";
+  src: url("../assets/fonts/Golden-Plains.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Calibri";
+  src: url("../assets/fonts/Calibri.ttf") format("truetype");
 }
 
 .img-fluid {
@@ -72,21 +84,37 @@ body {
 }
 
 .welcome-section {
-  margin-top: 20px;
   margin-bottom: 20px;
+  position: relative;
+  bottom: 50px;
+}
+
+.handwritten-title {
+  font-family: "Golden-Plains";
+  color: #b23150;
+  font-size: 50px;
+}
+
+.welcome-title,.latest-projects {
+  font-size: 35px;
 }
 
 .footer {
   padding-top: 25px;
   padding-bottom: 10px;
   margin-top: 20px;
+  background-color: #685454;
 }
 
 .social-media {
   padding-bottom: 5px;
 }
 
-.facebook-icon,.twitter-icon,.tumblr-icon,.ko-fi-icon {
-  height: 40px;
-  width: 40px;
+.discord-icon,.github-icon,.tumblr-icon,.ko-fi-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.fake-link {
+  cursor: pointer;
 }
