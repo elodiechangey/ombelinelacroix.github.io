@@ -99,6 +99,12 @@ body {
   font-size: 35px;
 }
 
+.welcome-left,.welcome-right {
+  background-color: #fbf7f0;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .footer {
   padding-top: 25px;
   padding-bottom: 10px;
