@@ -93,16 +93,50 @@ body {
   font-family: "Golden-Plains";
   color: #b23150;
   font-size: 50px;
+  padding-top: 65px;
+  padding-left: 40px;
+  margin-bottom: -10px;
 }
 
 .welcome-title,.latest-projects {
   font-size: 35px;
 }
 
+.welcome-title,.welcome-left p,.welcome-readmore {
+  padding-left: 40px;
+}
+
+.welcome-left p {
+  text-align: justify;
+  width: 92%;
+}
+
+.welcome-readmore {
+  color: #9a7b3b;
+}
+
+.welcome-readmore:hover {
+  color: #fcb728;
+}
+
 .welcome-left,.welcome-right {
+  position: relative;
   background-color: #fbf7f0;
-  border-radius: 25px;
+  border-radius: 75px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 25px;
+}
+
+.welcome-left-corner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+}
+
+b {
+  color: #b23150;
+  font-weight: normal;
 }
 
 .footer {
