@@ -32,60 +32,46 @@ body {
   padding-right: 0px;
 }
 
-.nav-whole {
-  position: relative;
-  bottom: 80px;
-}
-
 .navbar-width {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.nav-item {
-  border-top: 5px solid #9a7b3b;
-  border-bottom: 5px solid #9a7b3b;
-  background-color: #f4e5ce;
-}
-
-.nav-first {
-  border-left: 5px solid #9a7b3b;
-}
-
-.nav-last {
-  border-right: 5px solid #9a7b3b;
-}
-
 .nav-fill {
   padding-left: 0px;
   padding-right: 0px;
+  border-top: 5px solid #9a7b3b;
+  border-bottom: 5px solid #9a7b3b;
+  border-left: 5px solid #9a7b3b;
+  border-right: 5px solid #9a7b3b;
+  background-color: #f4e5ce;
 }
 
 .nav-link {
   font-family: "Legrand";
   color: #9a7b3b;
   font-size: 35px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .nav-link:hover {
   color: #fcb728;
 }
 
-.nav-logo {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .logo_nav {
-  height: 200px;
-  width: 350px;
+  position:absolute;
+  max-width: 350px;
+  width: 350px \9;
+  height: auto;
+  top: -70px;
+  left: 50%;
+  margin-left: -175px;
 }
 
 .welcome-section {
+  margin-top: 60px;
   margin-bottom: 20px;
-  position: relative;
   bottom: 50px;
 }
 
@@ -94,25 +80,24 @@ body {
   color: #b23150;
   font-size: 50px;
   padding-top: 65px;
-  padding-left: 40px;
+  padding-left: 70px;
   margin-bottom: -10px;
 }
 
-.welcome-title,.latest-projects {
+.welcome-title {
+  padding-left: 70px;
   font-size: 35px;
-}
-
-.welcome-title,.welcome-left p,.welcome-readmore {
-  padding-left: 40px;
 }
 
 .welcome-left p {
   text-align: justify;
   width: 92%;
+  padding-left: 40px;
 }
 
 .welcome-readmore {
   color: #9a7b3b;
+  padding-left: 40px;
 }
 
 .welcome-readmore:hover {
@@ -127,11 +112,43 @@ body {
   padding-bottom: 25px;
 }
 
+.welcome-left {
+  margin-right: 15px;
+}
+
+.welcome-right {
+  margin-left: 15px;
+}
+
 .welcome-left-corner {
   position: absolute;
   top: 0;
   left: 0;
   width: 60%;
+}
+
+.welcome-right-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+  transform: scaleX(-1);
+}
+
+.latest-projects {
+  padding-top: 65px;
+  padding-left: 40px;
+  margin-bottom: -10px;
+}
+
+.home-project-list {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.img-project {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 b {
