@@ -20,21 +20,19 @@ body {
   src: url("../assets/fonts/Calibri.ttf") format("truetype");
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
 .banner-main {
-  margin-right: 0px;
-  margin-left: 0px;
   padding-left: 0px;
   padding-right: 0px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
 }
 
 .navbar-width {
   padding-left: 0px;
   padding-right: 0px;
+  max-width: 1079px;
 }
 
 .nav-fill {
@@ -59,14 +57,19 @@ body {
   color: #fcb728;
 }
 
+.nav-link-empty {
+  display:inline-block;
+  width: 20vw;
+}
+
 .logo_nav {
   position:absolute;
   max-width: 350px;
-  width: 350px \9;
   height: auto;
-  top: -70px;
-  left: 50%;
-  margin-left: -175px;
+  top: -60px;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 
 .welcome-section {
@@ -143,7 +146,6 @@ body {
 
 .home-project-list {
   margin-top: 20px;
-  /* margin-left: 30px; */
 }
 
 .img-project {
