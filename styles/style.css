@@ -31,7 +31,6 @@ body {
 }
 
 .banner-main-mobile {
-  position: relative;
   padding-left: 0px;
   padding-right: 0px;
   border-bottom: 3px solid #9a7b3b;
@@ -107,9 +106,7 @@ body {
   z-index: 1;
   left: 0;
   right: 0;
-  top: 0;
-  bottom: 0;
-  overflow: auto;
+  top: 25.3vw;
 }
 
 nav {
