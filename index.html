@@ -21,7 +21,9 @@
 
 <!-- Banner -->
   <div class="banner-main">
-        <img class ="banner-main" src="assets/images/banner_test.jpg">
+        <img class ="banner-main d-none d-lg-block d-xl-block" src="assets/images/banner_test.jpg">
+        <img class ="banner-main-mobile d-lg-none d-xl-none" src="assets/images/banner_test.jpg">
+        <img class="logo-mobile-nav d-lg-none d-xl-none" src="assets/images/logo_nav.png">
   </div>
 <!-- Banner -->
 
@@ -30,28 +32,22 @@
     <ul class="nav-fill">
       <li class="nav-li"><a class="nav-link active" href="index.html">Home</a></li>
       <li class="nav-li"><a class="nav-link" href="#">My projects</a></li>
-      <li class="nav-li"><a class="nav-link-empty" href="index.html"><img class="logo_nav" src="assets/images/logo_nav.png"></a></li>
+      <li class="nav-li"><a class="nav-link-empty" href="index.html"><img class="logo-nav" src="assets/images/logo_nav.png"></a></li>
       <li class="nav-li"><a class="nav-link" href="#">About me</a></li>
       <li class="nav-li"><a class="nav-link" href="#">Contact</a></li>
     </ul>
   </div>
 
-  <a class="fake-link">
-    <ul class="buns d-lg-none d-xl-none">
-      <li class="bun"></li>
-      <li class="bun"></li>
-      <li class="bun"></li>
-    </ul>
-  </a>
-
-  <div class="mobile-nav d-lg-none d-xl-none">
-    <ul class="mobile-ul">
-      <li class="mobile-li"><a href="index.html"><span>Home</span></a></li>
-      <li class="mobile-li"><a href="#"><span>My projects</span></a></li>
-      <li class="mobile-li"><a href="#"><span>About me</span></a></li>
-      <li class="mobile-li"><a href="#"><span>Contact</span></a></li>
-    </ul>
-  </div>
+  <nav class="mobile-menu d-lg-none d-xl-nones">
+    <header>Menu<span>×</span></header>
+    <ol>
+        <li class="menu-item"><a href="index.html">Home</a></li>
+        <li class="menu-item"><a href="#">My projects</a></li>
+        <li class="menu-item"><a href="#">About me</a></li>
+        <li class="menu-item"><a href="#">Contact</a></li>
+    </ol>
+    <footer><button aria-label="Toggle Menu">Toggle</button></footer>
+  </nav>
 <!-- Navbar -->
 
 <!-- Welcome section -->
