@@ -26,19 +26,31 @@
 <!-- Banner -->
 
 <!-- Navbar -->
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="d-none d-sm-block col-md-12 navbar-width">
-        <ul class="row justify-content-center nav-fill">
-          <li><a class="nav-link active" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="#">My projects</a></li>
-          <li><a class="nav-link-empty d-none d-lg-block"></a></li>
-          <li><a class="nav-link" href="#">About me</a></li>
-          <li><a class="nav-link" href="#">Contact</a></li>
-          <a href="index.html"><img class="logo_nav d-none d-lg-block" src="assets/images/logo_nav.png"></a>
-        </ul>
-      </div>
-    </div>
+  <div class="navbar-width d-none d-lg-block d-xl-block">
+    <ul class="nav-fill">
+      <li class="nav-li"><a class="nav-link active" href="index.html">Home</a></li>
+      <li class="nav-li"><a class="nav-link" href="#">My projects</a></li>
+      <li class="nav-li"><a class="nav-link-empty" href="index.html"><img class="logo_nav" src="assets/images/logo_nav.png"></a></li>
+      <li class="nav-li"><a class="nav-link" href="#">About me</a></li>
+      <li class="nav-li"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <a class="fake-link">
+    <ul class="buns d-lg-none d-xl-none">
+      <li class="bun"></li>
+      <li class="bun"></li>
+      <li class="bun"></li>
+    </ul>
+  </a>
+
+  <div class="mobile-nav d-lg-none d-xl-none">
+    <ul class="mobile-ul">
+      <li class="mobile-li"><a href="index.html"><span>Home</span></a></li>
+      <li class="mobile-li"><a href="#"><span>My projects</span></a></li>
+      <li class="mobile-li"><a href="#"><span>About me</span></a></li>
+      <li class="mobile-li"><a href="#"><span>Contact</span></a></li>
+    </ul>
   </div>
 <!-- Navbar -->
 
@@ -51,11 +63,11 @@
         <p>My name is <b>Rose</b>, and I'm a French <b>developper</b>, <b>writer</b> and <b>artist</b>. </br>
         I share my work here. You can expect to find several projects of a different nature. Feel free to reach out if you have a question, or a suggestion about my content.</p>
         <a class="welcome-readmore" href="#">Read more about me</a>
-        <img class="welcome-left-corner" src="assets/images/corner.png">
+        <img class="welcome-left-corner d-none d-lg-block d-xl-block" src="assets/images/corner.png">
       </div>
       <div class="col-md-4 welcome-right">
         <h1 class="latest-projects handwritten-title">Latest Projects</h1>
-        <img class="welcome-right-corner" src="assets/images/corner.png">
+        <img class="welcome-right-corner d-none d-lg-block d-xl-block" src="assets/images/corner.png">
         <div class="row home-project-list justify-content-center">
           <div class="col-3 img-project">
             <a href="#"><img class="img-fluid" src="https://via.placeholder.com/80x80.png?text=1"></a>
