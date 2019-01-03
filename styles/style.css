@@ -299,9 +299,14 @@ b {
   margin-top: 15px;
 }
 
-.facebook-icon,.twitter-icon,.github-icon,.tumblr-icon {
-  height: 50px;
-  width: 50px;
+.fab {
+  font-size: 50px;
+  margin-right: 5px;
+  color: #ebd5d5;
+}
+
+.fab:hover {
+  color: #ea8a8a;
 }
 
 .kofi-icon {
@@ -309,8 +314,4 @@ b {
   right: 0px;
   bottom: 8px;
   z-index: 1;
-}
-
-.fake-link {
-  cursor: pointer;
 }

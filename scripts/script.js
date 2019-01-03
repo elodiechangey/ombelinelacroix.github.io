@@ -1,7 +1,3 @@
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
-
 var $els = $('.mobile-menu a, .mobile-menu header');
 var count = $els.length;
 var grouplength = Math.ceil(count/3);
