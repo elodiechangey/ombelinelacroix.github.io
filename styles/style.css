@@ -2,10 +2,12 @@ body {
   background-image: url("../assets/images/background_body.jpg");
   background-repeat: repeat;
   font-family: "Calibri";
+  margin-bottom: 320px;
 }
 
-body {
-  height: 100vh;
+html {
+  position: relative;
+  min-height: 100%
 }
 
 @font-face {
@@ -281,36 +283,32 @@ b {
   font-weight: normal;
 }
 
-.wrapper {
-	min-height: 100%;
-	height: auto!important;
-	height: 100%;
-	margin: 0 auto $footer-height * -1;
-}
-
-.sticky {
-	height: 130px;
-}
-
-#footer {
-  height: 130px;
-}
-
 .footer-content {
-  padding-top: 25px;
-  padding-bottom: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 160px;
+  width: 100%;
+  padding-top: 30px;
+  margin-top: 160px;
   color: white;
   background-color: #685454;
-  width: 100%;
 }
 
-.social-media {
-  padding-bottom: 5px;
+.footer-content p {
+  margin-top: 15px;
 }
 
-.facebook-icon,.twitter-icon,.discord-icon,.github-icon,.tumblr-icon,.ko-fi-icon {
+.facebook-icon,.twitter-icon,.github-icon,.tumblr-icon {
   height: 50px;
   width: 50px;
+}
+
+.kofi-icon {
+  position: fixed;
+  right: 0px;
+  bottom: 8px;
+  z-index: 1;
 }
 
 .fake-link {
