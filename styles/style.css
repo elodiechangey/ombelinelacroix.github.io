@@ -342,6 +342,7 @@ input[type=email], input[type=text], textarea {
   border-bottom: 1px solid grey;
   resize: none;
   margin-bottom: 10px;
+  background-color: #fbf7f0;
 }
 
 input[type=file] {
