@@ -7,7 +7,7 @@ body {
 
 html {
   position: relative;
-  min-height: 100%
+  min-height: 100%;
 }
 
 @font-face {
@@ -87,8 +87,7 @@ html {
 
 .nav-link-empty {
   display: inline-block;
-  width: 26vw;
-  max-width: 350px;
+  width: 350px;
 }
 
 .logo-nav {
@@ -323,7 +322,7 @@ b {
   z-index: 1;
 }
 
-.contact-form {
+.contact-form, .project-list {
   margin-top: 100px;
   margin-bottom: 60px;
   bottom: 50px;
@@ -350,7 +349,7 @@ input[type=file] {
   margin-bottom: 10px;
 }
 
-.title-contact {
+.title-contact, .title-projects {
   font-family: "Golden-Plains";
   color: #b23150;
   font-size: 50px;
@@ -373,4 +372,13 @@ input[type=file] {
 
 .contact-button:hover {
   background-color: #fcb728;
+}
+
+.projects-row1 {
+  margin-top: 30px;
+}
+
+.projects-row2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
