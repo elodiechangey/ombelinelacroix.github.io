@@ -1,3 +1,4 @@
+// ***** Mobile menu *****
 var $els = $('.mobile-menu a, .mobile-menu header');
 var count = $els.length;
 var grouplength = Math.ceil(count/3);
@@ -35,3 +36,55 @@ function toggleMenu(e) {
 $( document ).ready(function() {
     toggleMenu(null);
 });
+// ***** Mobile menu *****
+
+// ***** Sort filters *****
+(function() {
+  var $sortedContent = $('.project-list .card');
+  var $buttons = $('#buttons');
+  var tagged = {};
+
+  $sortedContent.each(function() {
+    var img = this;
+    var tags = $(this).data('tags');
+
+    if (tags) {
+      tags.split(',').forEach(function(tagName) {
+        if (tagged[tagName] == null) {
+          tagged[tagName] = [];
+        }
+        tagged[tagName].push(img);
+      })
+    }
+  })
+
+  $('<button/>', {
+    text: 'Show All',
+    class: 'active',
+    click: function() {
+      $(this)
+        .addClass('active')
+        .siblings()
+        .removeClass('active');
+      $sortedContent.show();
+    }
+  }).appendTo($buttons);
+
+  $.each(tagged, function(tagName) {
+    var $n = $(tagged[tagName]).length;
+    $('<button/>', {
+      text: tagName + '(' + $n + ')',
+      click: function() {
+        $(this)
+          .addClass('active')
+          .siblings()
+          .removeClass('active');
+        $sortedContent
+          .hide()
+          .filter(tagged[tagName])
+          .show();
+      }
+    }).appendTo($buttons);
+  });
+}())
+// ***** Sort filters *****
