@@ -40,7 +40,7 @@ $( document ).ready(function() {
 
 // ***** Sort filters *****
 (function() {
-  var $sortedContent = $('.project-list .card');
+  var $sortedContent = $('.project-list .project');
   var $buttons = $('#buttons');
   var tagged = {};
 
