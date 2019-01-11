@@ -374,11 +374,7 @@ input[type=file] {
   background-color: #fcb728;
 }
 
-.projects-row1 {
-  margin-top: 30px;
-}
-
-.projects-row2 {
+.projects-row {
   margin-top: 30px;
   margin-bottom: 30px;
 }
