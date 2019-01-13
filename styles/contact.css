@@ -44,6 +44,7 @@ input[type=file] {
   font-family: "Calibri";
   font-size: 20px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .contact-button:hover {
