@@ -1,3 +1,8 @@
+@import "about-me.css";
+@import "contact.css";
+@import "gallery.css";
+@import "projects.css";
+
 body {
   background-image: url("../assets/images/background_body.jpg");
   background-repeat: repeat;
@@ -322,72 +327,6 @@ b {
   z-index: 1;
 }
 
-.contact-form, .project-list, .about-me {
-  margin-top: 100px;
-  margin-bottom: 60px;
-  bottom: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: #fbf7f0;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-input[type=email], input[type=text], textarea {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid grey;
-  resize: none;
-  margin-bottom: 10px;
-  background-color: #fbf7f0;
-}
-
-input[type=file] {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.title-contact, .title-projects, .title-about-me {
-  font-family: "Golden-Plains";
-  color: #b23150;
-  font-size: 50px;
-}
-
-.contact-button {
-  background-color: #9a7b3b;
-  border: 1px solid #fbf7f0;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-radius: 5px;
-  margin-top: 10px;
-  color: white;
-  font-family: "Calibri";
-  font-size: 20px;
-  transition: 0.3s;
-}
-
-.contact-button:hover {
-  background-color: #fcb728;
-}
-
-.projects-row {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.about-me p {
-  text-align: justify;
-}
-
-.about-me-pic {
-  float: left;
-  margin-right: 20px;
-}
-
 #buttons button {
   background-color: #9a7b3b;
   border: 1px solid #fbf7f0;
@@ -411,14 +350,4 @@ input[type=file] {
 
 #buttons button.active {
   background-color: #b23150;
-}
-
-.card-title a{
-  color: #9a7b3b;
-}
-
-.card-title a:hover {
-  color: #fcb728;
-  text-decoration: none;
-  transition: 0.3s;
 }

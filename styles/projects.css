@@ -1,0 +1,41 @@
+.project-list {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #fbf7f0;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-projects {
+  font-family: "Golden-Plains";
+  color: #b23150;
+  font-size: 50px;
+}
+
+.projects-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-title a {
+  color: #9a7b3b;
+}
+
+.card-title a:hover {
+  color: #fcb728;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.project {
+  padding: 15px;
+}
+
+.card-text {
+  text-align: justify;
+}
