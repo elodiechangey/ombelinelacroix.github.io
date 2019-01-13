@@ -16,3 +16,23 @@
   color: #b23150;
   font-size: 50px;
 }
+
+.img-thumbnail {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color: #E8E8E8;
+  height: 1px;
+}
