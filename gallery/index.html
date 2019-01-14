@@ -59,13 +59,26 @@
       <h1 class="title-gallery">Gallery</h1>
       <div id="buttons"></div>
       <div class="row gallery-row">
-        <div class="col-6 col-md-3">
-        <a class="thumbnail" data-toggle="modal" data-target="#myModal" data-title="This is my title" data-caption="Image caption bla bla bla" data-image="https://via.placeholder.com/600x800.png" data-target="#image-gallery">
-          <img data-tags="3D Art" src="https://via.placeholder.com/205x205.png" class="img-thumbnail item"></a></div>
-        <div class="col-6 col-md-3"><img data-tags="Photography" src="https://via.placeholder.com/205x205.png" class="img-thumbnail item"></div>
-        <div class="col-6 col-md-3"><img data-tags="Photography" src="https://via.placeholder.com/205x205.png" class="img-thumbnail item"></div>
-        <div class="col-6 col-md-3"><img data-tags="Photography" src="https://via.placeholder.com/205x205.png" class="img-thumbnail item"></div>
-        <div class="col-6 col-md-3"><img data-tags="Photography" src="https://via.placeholder.com/205x205.png" class="img-thumbnail item"></div>
+        <div class="col-6 col-md-3 item" data-tags="3D Art">
+        <a class="thumbnail" data-image-id="" data-toggle="modal" data-target="#myModal" data-title="This is my title 1" data-caption="Image caption 1" data-image="https://via.placeholder.com/600x800.png" data-target="#image-gallery">
+          <img src="https://via.placeholder.com/205x205.png" class="img-thumbnail"></a></div>
+
+        <div class="col-6 col-md-3 item" data-tags="Photography">
+        <a class="thumbnail" data-image-id="" data-toggle="modal" data-target="#myModal" data-title="This is my title 2" data-caption="Image caption 2" data-image="https://via.placeholder.com/600x800.png" data-target="#image-gallery">
+          <img src="https://via.placeholder.com/205x205.png" class="img-thumbnail"></a></div>
+
+        <div class="col-6 col-md-3 item" data-tags="Photography">
+        <a class="thumbnail" data-image-id="" data-toggle="modal" data-target="#myModal" data-title="This is my title 3" data-caption="Image caption 3" data-image="https://via.placeholder.com/600x800.png" data-target="#image-gallery">
+          <img src="https://via.placeholder.com/205x205.png" class="img-thumbnail"></a></div>
+
+        <div class="col-6 col-md-3 item" data-tags="Game Screenshot">
+        <a class="thumbnail" data-image-id="" data-toggle="modal" data-target="#myModal" data-title="This is my title 4" data-caption="Image caption 4" data-image="https://via.placeholder.com/600x800.png" data-target="#image-gallery">
+          <img src="https://via.placeholder.com/205x205.png" class="img-thumbnail"></a></div>
+
+        <div class="col-6 col-md-3 item" data-tags="Photography">
+        <a class="thumbnail" data-image-id="" data-toggle="modal" data-target="#myModal" data-title="This is my title 5" data-caption="Image caption 5" data-image="https://via.placeholder.com/600x800.png" data-target="#image-gallery">
+          <img src="https://via.placeholder.com/205x205.png" class="img-thumbnail"></a></div>
+
       </div>
     </div>
   </div>
@@ -80,17 +93,13 @@
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
         </div>
         <div class="modal-body">
+          <span class="fas fa-chevron-left carousel-control-prev" id="show-previous-image"></span>
           <img id="image-gallery-image" class="img-fluid" src="">
+          <span class="fas fa-chevron-right carousel-control-next" id="show-next-image"></span>
         </div>
         <div class="modal-footer">
-          <div class="col-md-2">
-            <button type="button" class="btn btn-primary" id="show-previous-image">Previous</button>
-          </div>
-          <div class="col-md-8 text-justify" id="image-gallery-caption">
+          <div class="col-md-12" id="image-gallery-caption">
             This text will be overwritten by jQuery
-          </div>
-          <div class="col-md-2">
-            <button type="button" id="show-next-image" class="btn btn-default">Next</button>
           </div>
         </div>
         <hr />

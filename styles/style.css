@@ -347,8 +347,10 @@ b {
 
 #buttons button:hover {
   background-color: #fcb728;
+  cursor:pointer;
 }
 
 #buttons button.active {
   background-color: #b23150;
+  cursor:pointer;
 }

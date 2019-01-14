@@ -22,6 +22,11 @@
   margin-bottom: 20px;
 }
 
+.img-thumbnail:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
 .img-fluid {
   display: block;
   margin-left: auto;
@@ -35,4 +40,16 @@ hr {
   width: 100%;
   background-color: #E8E8E8;
   height: 1px;
+}
+
+.fa-chevron-left,.fa-chevron-right {
+  color: #9a7b3b;
+  cursor: pointer;
+  font-size: 50px;
+  padding-top: 50%;
+  opacity: 1;
+}
+
+.fa-chevron-left:hover,.fa-chevron-right:hover {
+  color: #fcb728;
 }

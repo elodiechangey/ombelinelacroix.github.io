@@ -111,7 +111,7 @@ $(document).ready(function(){
      */
 
     function loadGallery(setIDs, setClickAttr){
-        var current_image,
+        var current_image = 0,
             selector,
             counter = 0;
 
