@@ -89,7 +89,41 @@ $( document ).ready(function() {
 }())
 // ***** Sort filters *****
 
+// ***** Disqus *****
+var disqus_shortname  = 'rosealacroix',
+    disqus_identifier = 'default',
+    disqus_title      = 'I Heart Chocoloate',
+    disqus_config     = function(){
+        this.language = 'en';
+    };
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+
+function loadDisqus( identifier, url, title )
+{
+    DISQUS.reset({
+        reload: true,
+        config: function ()
+        {
+            this.page.identifier = identifier;
+            this.page.url        = url;
+            this.page.title      = title;
+            this.language        = 'en';
+        }
+    });
+}
+// ***** Disqus *****
+
 // ***** Gallery *****
+function loadDisqusForImage(imageId) {
+  selector = $('[data-image-id="' + imageId + '"]');
+  loadDisqus(imageId, 'http://rosealacroix.com/img'+imageId, selector.data('caption'));
+}
+
 $(document).ready(function(){
 
     loadGallery(true, 'a.thumbnail');
@@ -110,6 +144,7 @@ $(document).ready(function(){
      * @param setClickAttr  Sets the attribute for the click handler.
      */
 
+
     function loadGallery(setIDs, setClickAttr){
         var current_image = 0,
             selector,
@@ -124,6 +159,7 @@ $(document).ready(function(){
 
             selector = $('[data-image-id="' + current_image + '"]');
             updateGallery(selector);
+            loadDisqusForImage(current_image);
         });
 
         function updateGallery(selector) {
