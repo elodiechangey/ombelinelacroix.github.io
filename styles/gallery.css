@@ -33,7 +33,7 @@
   margin-right: auto;
 }
 
-.modal-body {
+.img-area {
   display: table;
 }
 
@@ -42,10 +42,8 @@
 }
 
 .fa-chevron-left,.fa-chevron-right {
-  color: #9a7b3b;
   cursor: pointer;
   font-size: 50px;
-  opacity: 1;
 }
 
 .fa-chevron-left {
@@ -53,6 +51,7 @@
   text-align: left;
   align-items: left;
   vertical-align: middle;
+  margin-top: -5%;
 }
 
 .fa-chevron-right {
@@ -60,10 +59,7 @@
   text-align: right;
   align-items: right;
   vertical-align: middle;
-}
-
-.fa-chevron-left:hover,.fa-chevron-right:hover {
-  color: #fcb728;
+  margin-top: -5%;
 }
 
 #image-gallery-caption {
