@@ -59,6 +59,7 @@
       <h1 class="title-gallery">Gallery</h1>
       <div id="buttons"></div>
       <div class="row gallery-row">
+
         <div class="col-6 col-md-3 item" data-tags="Photography">
         <a class="thumbnail" onclick="loadDisqusForImage(1)" data-image-id="" data-toggle="modal" data-target="#myModal" data-title="A Swirly Friend" data-caption="A cute creature encountered last time I had a stroll down the beach." data-image="../assets/gallery/swirly-friend.jpg" data-target="#image-gallery">
           <img src="../assets/gallery/swirly-friendt.jpg" class="img-thumbnail"></a></div>
@@ -93,17 +94,14 @@
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
         </div>
         <div class="modal-body">
-          <span class="fas fa-chevron-left carousel-control-prev" id="show-previous-image"></span>
+          <span class="col fas fa-chevron-left carousel-control-prev" id="show-previous-image"></span>
           <img id="image-gallery-image" class="img-fluid" src="">
-          <span class="fas fa-chevron-right carousel-control-next" id="show-next-image"></span>
+          <span class="col fas fa-chevron-right carousel-control-next" id="show-next-image"></span>
           <div class="col-md-12" id="image-gallery-caption">
             This text will be overwritten by jQuery
           </div>
-
         </div>
-
         <div class="modal-footer">
-        <hr />
         <div id="disqus_thread" class="col-md-12"></div>
         </div>
       </div>

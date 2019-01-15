@@ -33,21 +33,33 @@
   margin-right: auto;
 }
 
-hr {
-  border: 0;
-  clear:both;
-  display:block;
-  width: 100%;
-  background-color: #E8E8E8;
-  height: 1px;
+.modal-body {
+  display: table;
+}
+
+.col {
+  display: table-cell;
 }
 
 .fa-chevron-left,.fa-chevron-right {
   color: #9a7b3b;
   cursor: pointer;
   font-size: 50px;
-  padding-top: 50%;
   opacity: 1;
+}
+
+.fa-chevron-left {
+  display:flex;
+  text-align: left;
+  align-items: left;
+  vertical-align: middle;
+}
+
+.fa-chevron-right {
+  display:flex;
+  text-align: right;
+  align-items: right;
+  vertical-align: middle;
 }
 
 .fa-chevron-left:hover,.fa-chevron-right:hover {
@@ -56,5 +68,5 @@ hr {
 
 #image-gallery-caption {
   text-align: justify;
-  margin-top: 10px;
+  margin-top: 20px;
 }

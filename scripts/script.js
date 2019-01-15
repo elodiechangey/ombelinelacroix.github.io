@@ -92,7 +92,7 @@ $( document ).ready(function() {
 // ***** Disqus *****
 var disqus_shortname  = 'rosealacroix',
     disqus_identifier = 'default',
-    disqus_title      = 'I Heart Chocoloate',
+    disqus_title      = 'Rose A. Lacroix',
     disqus_config     = function(){
         this.language = 'en';
     };
