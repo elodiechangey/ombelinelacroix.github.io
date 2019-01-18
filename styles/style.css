@@ -299,16 +299,16 @@ b {
   width: 100%;
   padding-top: 30px;
   margin-top: 160px;
-  color: white;
   background-color: #685454;
 }
 
 .footer-content p {
   margin-top: 15px;
+  color: white;
 }
 
 .fab {
-  font-size: 50px;
+  font-size: 45px;
   margin-right: 5px;
   color: #ebd5d5;
 }
@@ -316,6 +316,20 @@ b {
 .fab:hover {
   color: #ea8a8a;
   transition: 0.3s;
+  text-decoration: none;
+}
+
+.fa-discord {
+  font-size: 45px !important;
+  margin-right: 5px;
+  color: #ebd5d5 !important;
+  cursor: pointer;
+}
+
+.fa-discord:hover {
+  color: #ea8a8a !important;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 .kofi-icon {
@@ -347,10 +361,10 @@ b {
 
 #buttons button:hover {
   background-color: #fcb728;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 #buttons button.active {
   background-color: #b23150;
-  cursor:pointer;
+  cursor: pointer;
 }

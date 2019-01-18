@@ -1,3 +1,7 @@
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
 // ***** Mobile menu *****
 var $els = $('.mobile-menu a, .mobile-menu header');
 var count = $els.length;

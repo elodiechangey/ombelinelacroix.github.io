@@ -19,9 +19,10 @@
 
 .about-me p {
   text-align: justify;
+  padding-top: 20px;
 }
 
 .about-me-pic {
   float: left;
-  margin-right: 20px;
+  padding-right: 20px;
 }
