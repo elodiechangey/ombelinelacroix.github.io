@@ -61,15 +61,16 @@
         <label for="name"><i class="fas fa-user"></i> Name:</label>
         <input type="text" name="name" placeholder="Your name" required>
         <label for="email"><i class="fas fa-envelope"></i> Email:</label>
-        <input type="email" name="email" placeholder="you@mail.com" required>
+        <input type="email" name="_replyto" placeholder="you@mail.com" required>
         <label for="message"><i class="fas fa-comments"></i> Your message:</label>
         <textarea name="message" placeholder="Enter your message here" style="height:90px" required></textarea>
         <label for="attachment"><i class="fas fa-paperclip"></i> Attachment (optional)</label>
         <input type="file" name="file" placeholder="">
+        <input type="hidden" name="_subject" value="Contact form submitted">
         <input type="hidden" name="_after" value="https://rosealacroix.com/">
         <input type="hidden" name="_honeypot" value="">
         <input type="hidden" name="_confirmation" value="Thank you for your message!">
-        <input type="submit" name="submit" value="Submit" class="contact-button">
+        <input type="submit" value="Submit" class="contact-button">
       </form>
     </div>
   </div>
