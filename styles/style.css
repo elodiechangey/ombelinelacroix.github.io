@@ -146,9 +146,8 @@ nav a {
   transition-delay: var(--delay-out);
   border-radius: 4px;
   padding: 1em 1.52em;
-  font-family: "Legrand";
   color: #9a7b3b;
-  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
 }
 nav a:hover {
   color: #fcb728;
@@ -156,8 +155,7 @@ nav a:hover {
   transition: 0.3s;
 }
 nav header {
-  font-family: "Legrand";
-  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
   color: #b23150;
   display: block;
   background: rgba(244, 229, 206, 0.9);
