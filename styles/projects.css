@@ -31,6 +31,10 @@
   transition: 0.3s;
 }
 
+.card-title {
+  text-align: center;
+}
+
 .project {
   padding: 15px;
 }

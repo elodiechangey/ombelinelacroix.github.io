@@ -210,25 +210,25 @@ nav.closed footer button {
   font-family: "Golden-Plains";
   color: #b23150;
   font-size: 50px;
-  padding-top: 65px;
-  padding-left: 70px;
+  padding-top: 120px;
+  padding-left: 90px;
   margin-bottom: -10px;
 }
 
 .welcome-title {
-  padding-left: 70px;
+  padding-left: 90px;
   font-size: 35px;
 }
 
 .welcome-left p {
   text-align: justify;
   width: 92%;
-  padding-left: 40px;
+  padding-left: 80px;
 }
 
 .welcome-readmore {
   color: #9a7b3b;
-  padding-left: 40px;
+  padding-left: 80px;
 }
 
 .welcome-readmore:hover {
@@ -237,12 +237,12 @@ nav.closed footer button {
   transition: 0.3s;
 }
 
-.welcome-left,.welcome-right {
+.welcome-left {
   position: relative;
   background-color: #fbf7f0;
   border-radius: 75px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding-bottom: 25px;
+  padding-bottom: 80px;
   margin-bottom: 20px;
 }
 
@@ -250,38 +250,18 @@ nav.closed footer button {
   margin-right: 15px;
 }
 
-.welcome-right {
-  margin-left: 15px;
-}
-
 .welcome-left-corner {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60%;
+  width: 50%;
 }
 
 .welcome-right-corner {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
-  width: 90%;
-  transform: scaleX(-1);
-}
-
-.latest-projects {
-  padding-top: 65px;
-  padding-left: 40px;
-  margin-bottom: -10px;
-}
-
-.home-project-list {
-  margin-top: 20px;
-}
-
-.img-project {
-  padding-left: 5px;
-  padding-right: 5px;
+  width: 50%;
 }
 
 b {
