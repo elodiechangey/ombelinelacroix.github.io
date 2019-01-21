@@ -11,21 +11,26 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type=email], input[type=text], textarea {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid grey;
-  resize: none;
-  margin-bottom: 10px;
-  background-color: #fbf7f0;
+.contact-form p {
+  margin-top: 20px;
+  text-align: justify;
 }
 
-input[type=file] {
-  width: 100%;
-  margin-bottom: 10px;
+.contact-form i {
+  margin-top: 10px;
 }
 
-.title-contact, .title-projects, .title-about-me, .title-gallery {
+.contact-form a {
+  color: #9a7b3b;
+}
+
+.contact-form a:hover {
+  color: #fcb728;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.title-contact {
   font-family: "Golden-Plains";
   color: #b23150;
   font-size: 50px;
